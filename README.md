@@ -48,15 +48,19 @@ Each collection type is demonstrated with its own method, which shows common ope
    javac App.java
 
 ### Example Output:
---- Set (HashSet) ---
+
+#### --- Set (HashSet) ---
+```java
 Set elements: [Apple, Cherry, Banana]
 Does set contain 'Banana'? true
 Size of set: 3
-Set after removing 'Banana': [Apple, Cherry]        
+Set after removing 'Banana': [Apple, Cherry]
 Is set empty? false
 Set after clear: []
+```
 
---- Map (HashMap) ---
+#### --- Map (HashMap) ---
+```java
 Map elements: {1=One, 3=Three, 6=Six}
 Value for key 2: Six
 Returns a Collection view of the values contained in this map: [One, Three, Six]
@@ -66,16 +70,20 @@ Size of map: 3
 Map after removing key 2: {1=One, 3=Three, 6=Six}   
 Is map empty? false
 Map after clear: {}
+```
 
---- List (ArrayList) ---
+#### --- List (ArrayList) ---
+```java
 List elements: [Dog, Cat, Bird, Cat]
 Element at index 1: Cat
 Size of list: 4
 List after removing 'Cat': [Dog, Bird, Cat]
 Is list empty? false
 List after clear: []
+```
 
---- Queue (PriorityQueue) ---
+#### --- Queue (PriorityQueue) ---
+```java
 Queue elements (PriorityQueue, sorted by priority): [5, 10, 20]
 Looking up peak (first in queue) element: 5
 Polled element (removed): 5
@@ -83,8 +91,10 @@ Queue after poll: [10, 20]
 Size of queue: 2
 checking if queue empty: false
 Queue after clear: []
+```
 
---- Queue (LinkedList) ---
+#### --- Queue (LinkedList) ---
+```java
 Queue elements (LinkedList, FIFO order): [10, 5, 20]
 Looking up peak (first in queue) element: 10        
 Polled element (removed): 10
@@ -92,8 +102,10 @@ Queue after poll: [5, 20]
 Size of queue: 2
 Is queue empty? false
 Queue after clear: []
+```
 
---- Stack (Stack) ---
+#### --- Stack (Stack) ---
+```java
 Stack elements: [First, Second, Third]
 Looking up peak(last added) element: Third
 Popped element (removed): Third
@@ -101,8 +113,10 @@ Stack after pop: [First, Second]
 Size of stack: 2
 Is stack empty? false
 Stack after clear: []
+```
 
---- Array (Integer Array) ---
+#### --- Array (Integer Array) ---
+```java
 Array elements:
 i=0: 10
 i=1: 20
@@ -117,12 +131,17 @@ i=1: 20
 i=2: 30
 i=3: 40
 i=4: 100
+```
 
---- Vector (Object Type Example) ---
+#### --- Vector (Object Type Example) ---
+```java
 Vector elements: [First, Second, Third]
 Element at index 1: Second
 Vector after modifying element at index 2: [First, Second, Modified Third]
 Vector after removing element at index 0: [Second, Modified Third]
 Size of vector: 2
 Is vector empty? false
-Vector after clear: []"# CollectionsExercises" 
+Vector after clear: []
+```
+
+"# CollectionsExercises" 
